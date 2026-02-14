@@ -1,0 +1,1598 @@
+{
+  "translations": {
+    "ar": {
+      "subtitle": "تجربة طعام فاخرة",
+      "footer1": "جميع أطباقنا تُحضّر طازجة عند الطلب",
+      "footer2": "جميع الأسعار بالدينار العراقي",
+      "footer3": "فندق الأنبار الدولي"
+    },
+    "en": {
+      "subtitle": "Premium Dining Experience",
+      "footer1": "All dishes freshly prepared upon order",
+      "footer2": "All prices in Iraqi Dinar",
+      "footer3": "Al Anbar International Hotel"
+    }
+  },
+  "logo": {
+    "url": "img/logo/logo.jpg",
+    "alt": "AIH"
+  },
+  "tabs": {
+    "ar": [
+      {
+        "id": "food",
+        "name": "🍽️ الأطعمة"
+      },
+      {
+        "id": "drinks",
+        "name": "☕ المشروبات"
+      },
+      {
+        "id": "shisha",
+        "name": "🍃 الأراكيل"
+      }
+    ],
+    "en": [
+      {
+        "id": "food",
+        "name": "🍽️ Food"
+      },
+      {
+        "id": "drinks",
+        "name": "☕ Beverages"
+      },
+      {
+        "id": "shisha",
+        "name": "🍃 Shisha"
+      }
+    ]
+  },
+  "menu": {
+    "ar": [
+      {
+        "tab": "food",
+        "title": "شوربات",
+        "icon": "🍵",
+        "items": [
+          {
+            "name": "شوربة عدس",
+            "desc": "",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "شوربة فطر",
+            "desc": "",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "شوربة دجاج",
+            "desc": "",
+            "price": "4,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "سلطات",
+        "icon": "🥗",
+        "items": [
+          {
+            "name": "سلطة يونانية",
+            "desc": "",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سلطة جرجير",
+            "desc": "",
+            "price": "4,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سلطة جرجير مع شمندر",
+            "desc": "",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سلطة فتوش",
+            "desc": "",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سلطة تبولة",
+            "desc": "",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سلطة سيزر مع دجاج",
+            "desc": "",
+            "price": "7,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "مقبلات باردة",
+        "icon": "🥙",
+        "items": [
+          {
+            "name": "حمص",
+            "desc": "",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "راهب",
+            "desc": "",
+            "price": "2,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "متبل",
+            "desc": "",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ورق عنب",
+            "desc": "",
+            "price": "2,500 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "مقبلات ساخنة",
+        "icon": "🍤",
+        "items": [
+          {
+            "name": "بطاطا مقلية",
+            "desc": "",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كبة مقلية",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "حمص باللحمة",
+            "desc": "",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "بطاطا حارة",
+            "desc": "",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كبدة دجاج",
+            "desc": "",
+            "price": "4,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "منيو اطفال",
+        "icon": "🍔",
+        "items": [
+          {
+            "name": "كرسبي دجاج",
+            "desc": "",
+            "price": "6,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كباب ساندويش",
+            "desc": "",
+            "price": "4,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "طاوق ساندويش",
+            "desc": "",
+            "price": "6,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "الأطباق الرئيسية",
+        "icon": "🍖",
+        "items": [
+          {
+            "name": "برياني دجاج",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "برياني لحم",
+            "desc": "",
+            "price": "16,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كبسة دجاج",
+            "desc": "",
+            "price": "18,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كبسة لحم",
+            "desc": "",
+            "price": "20,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "قوزي الشام",
+            "desc": "",
+            "price": "20,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كبة لبنية",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مقلوبة لحم ",
+            "desc": "",
+            "price": "14,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مقلوبة دجاج",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "قوزي لحم",
+            "desc": "",
+            "price": "25,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "قوزي دجاج",
+            "desc": "",
+            "price": "20,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "مشاوي",
+        "icon": "🔥",
+        "items": [
+          {
+            "name": "طاوق مشوي",
+            "desc": "",
+            "price": "14,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كباب دجاج ",
+            "desc": "",
+            "price": "14,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كباب لحم",
+            "desc": "",
+            "price": "20,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مشاوي مشكل",
+            "desc": "",
+            "price": "24,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "اجنحة",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "معلاك",
+            "desc": "",
+            "price": "16,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "تكة لحم",
+            "desc": "",
+            "price": "20,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مشكل دجاج ",
+            "desc": "",
+            "price": "15,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "عرايس لحم",
+            "desc": "",
+            "price": "8,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "عرايس دجاج",
+            "desc": "",
+            "price": "6,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مسحب دجاج",
+            "desc": "",
+            "price": "12,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "مناقيش",
+        "icon": "🍽️",
+        "items": [
+          {
+            "name": "منقوشة زعتر",
+            "desc": "",
+            "price": "2,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "منقوشة محمرة",
+            "desc": "",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "منقوشة لحم",
+            "desc": "",
+            "price": "3,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "منقوشة لحم بالجبنة",
+            "desc": "",
+            "price": "4,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "منقوشة جبنة",
+            "desc": "",
+            "price": "2,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "مشروبات",
+        "icon": "🥤",
+        "items": [
+          {
+            "name": "ماء صغير",
+            "price": "500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ماء كبير",
+            "price": "1,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مشروب غازي",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مياه غازية",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لبن",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ريد بول",
+            "price": "2,500 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "مشروبات ساخنة",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "نسكافيه",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "إسبريسو دبل",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "إسبريسو سنجل",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "أمريكانو",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كابتشينو",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "قهوة تركية",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "شاي",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "وايت موكا",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه موكا لاتيه",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه كراميل",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه فانيلا",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه بالعسل",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لاتيه بندق",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "فرابيه",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سبانش لاتيه",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "فرابيه موكا كريم",
+            "price": "5,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "عصائر فريش",
+        "icon": "🍊",
+        "items": [
+          {
+            "name": "أناناس",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "برتقال",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "رمان",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ليمون ونعناع",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "فراولة",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مانجو",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ليموناضة",
+            "price": "4,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "مشروبات باردة",
+        "icon": "🧊",
+        "items": [
+          {
+            "name": "تشيز كيك",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس لاتيه",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس لاتيه عسل",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس لاتيه فانيلا",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس لاتيه بندق",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس موكا دارك",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس لاتيه كراميل",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سبانش آيس لاتيه",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس وايت موكا",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس شيكن لوتس",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "آيس أمريكانو",
+            "price": "5,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "ميلك شيك",
+        "icon": "🥤",
+        "items": [
+          {
+            "name": "ميلك شيك أوريو",
+            "price": "6,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ميلك شيك تشيز كيك",
+            "price": "6,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ميلك شيك موكا",
+            "price": "6,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "ميلك شيك",
+            "price": "6,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "موهيتو",
+        "icon": "🍹",
+        "items": [
+          {
+            "name": "موهيتو كلاسيك",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "موهيتو أناناس",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "موهيتو بلو",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "موهيتو فراولة",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "موهيتو مكس بيري",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "موهيتو جرينادين",
+            "price": "5,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "سموذي",
+        "icon": "🍓",
+        "items": [
+          {
+            "name": "سموذي فراولة",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي أناناس ومانجو",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي مكس بيري",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي مانجو",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي خوخ",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي كيوي وبلوبيري",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "سموذي برتقال وأناناس",
+            "price": "5,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "كوكتيل",
+        "icon": "🥭",
+        "items": [
+          {
+            "name": "كوكتيل فواكه فريش",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل موز وفراولة",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل حليب وموز",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل بالمكسرات والعسل",
+            "price": "7,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل فراولة وحليب",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل موز وحليب وشوكولا",
+            "price": "5,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل مكس بيري بالمكسرات",
+            "price": "7,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كوكتيل أفوكادو بالمكسرات",
+            "price": "7,000 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "shisha",
+        "title": "أراكيل",
+        "icon": "🍃",
+        "items": [
+          {
+            "name": "إنجليزي",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "تفاحتين",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "عنب",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "عنب ونعناع",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "ليمون ونعناع",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "حمضيات",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "علك ونعناع",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          },
+          {
+            "name": "سبيشل",
+            "price": "10,000 د.ع",
+            "img": "img/menu/اراكيل/1.jpeg"
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "tab": "food",
+        "title": "Soups",
+        "icon": "🍵",
+        "items": [
+          {
+            "name": "Lentil Soup",
+            "desc": "",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mushroom Soup",
+            "desc": "",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Soup",
+            "desc": "",
+            "price": "4,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Salads",
+        "icon": "🥗",
+        "items": [
+          {
+            "name": "Greek Salad",
+            "desc": "",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Arugula Salad",
+            "desc": "",
+            "price": "4,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Arugula Salad with Beets",
+            "desc": "",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Fattoush Salad",
+            "desc": "",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Tabbouleh Salad",
+            "desc": "",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Caesar Salad with Chicken",
+            "desc": "",
+            "price": "7,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Cold Appetizers",
+        "icon": "🥙",
+        "items": [
+          {
+            "name": "Hummus",
+            "desc": "",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Raheb",
+            "desc": "",
+            "price": "2,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mutabbal",
+            "desc": "",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Grape Leaves",
+            "desc": "",
+            "price": "2,500 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Hot Appetizers",
+        "icon": "🍤",
+        "items": [
+          {
+            "name": "French Fries",
+            "desc": "",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Fried Kibbeh",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Hummus with Meat",
+            "desc": "",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Spicy Potatoes",
+            "desc": "",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Liver",
+            "desc": "",
+            "price": "4,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Kids Menu",
+        "icon": "🍔",
+        "items": [
+          {
+            "name": "Crispy Chicken",
+            "desc": "",
+            "price": "6,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Kebab Sandwich",
+            "desc": "",
+            "price": "4,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Tawouk Sandwich",
+            "desc": "",
+            "price": "6,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Main Dishes",
+        "icon": "🍖",
+        "items": [
+          {
+            "name": "Chicken Biryani",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Biryani",
+            "desc": "",
+            "price": "16,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Kabsa",
+            "desc": "",
+            "price": "18,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Kabsa",
+            "desc": "",
+            "price": "20,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Levantine Quzi",
+            "desc": "",
+            "price": "20,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Kibbeh Labaniyeh",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Maqluba",
+            "desc": "",
+            "price": "14,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Maqluba",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Quzi",
+            "desc": "",
+            "price": "25,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Quzi",
+            "desc": "",
+            "price": "20,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Grills",
+        "icon": "🔥",
+        "items": [
+          {
+            "name": "Grilled Tawouk",
+            "desc": "",
+            "price": "14,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Kebab",
+            "desc": "",
+            "price": "14,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Kebab",
+            "desc": "",
+            "price": "20,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Grill",
+            "desc": "",
+            "price": "24,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Wings",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Ribs",
+            "desc": "",
+            "price": "16,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Tikka",
+            "desc": "",
+            "price": "20,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Chicken Grill",
+            "desc": "",
+            "price": "15,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Arayes",
+            "desc": "",
+            "price": "8,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Arayes",
+            "desc": "",
+            "price": "6,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chicken Mosahhab",
+            "desc": "",
+            "price": "12,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
+        "title": "Manakeesh",
+        "icon": "🍽️",
+        "items": [
+          {
+            "name": "Zaatar Manakish",
+            "desc": "",
+            "price": "2,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Muhammara Manakish",
+            "desc": "",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat Manakish",
+            "desc": "",
+            "price": "3,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Meat & Cheese Manakish",
+            "desc": "",
+            "price": "4,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Cheese Manakish",
+            "desc": "",
+            "price": "2,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Beverages",
+        "icon": "🥤",
+        "items": [
+          {
+            "name": "Small Water",
+            "price": "500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Large Water",
+            "price": "1,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Soft Drink",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Sparkling Water",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Yogurt Drink",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Red Bull",
+            "price": "2,500 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Hot Beverages",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Nescafe",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Double Espresso",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Single Espresso",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Americano",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Cappuccino",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Turkish Coffee",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Latte",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Tea",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "White Mocha",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mocha Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Caramel Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Vanilla Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Honey Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Hazelnut Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Frappe",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Spanish Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mocha Cream Frappe",
+            "price": "5,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Fresh Juices",
+        "icon": "🍊",
+        "items": [
+          {
+            "name": "Pineapple",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Orange",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Pomegranate",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Lemon Mint",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Strawberry",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mango",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Lemonade",
+            "price": "4,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Cold Beverages",
+        "icon": "🧊",
+        "items": [
+          {
+            "name": "Cheesecake",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Honey Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Vanilla Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Hazelnut Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Dark Mocha Ice",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Caramel Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Spanish Iced Latte",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "White Mocha Ice",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Lotus Iced Shake",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Iced Americano",
+            "price": "5,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Milkshakes",
+        "icon": "🥤",
+        "items": [
+          {
+            "name": "Oreo Milkshake",
+            "price": "6,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Cheesecake Milkshake",
+            "price": "6,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mocha Milkshake",
+            "price": "6,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Milkshake",
+            "price": "6,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Mojito",
+        "icon": "🍹",
+        "items": [
+          {
+            "name": "Classic Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Pineapple Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Blue Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Strawberry Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Berry Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Grenadine Mojito",
+            "price": "5,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Smoothies",
+        "icon": "🍓",
+        "items": [
+          {
+            "name": "Strawberry Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Pineapple Mango Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Berry Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mango Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Peach Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Kiwi Blueberry Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Orange Pineapple Smoothie",
+            "price": "5,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "drinks",
+        "title": "Cocktails",
+        "icon": "🥭",
+        "items": [
+          {
+            "name": "Fresh Fruit Cocktail",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Banana Strawberry Cocktail",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Milk Banana Cocktail",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Nuts & Honey Cocktail",
+            "price": "7,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Strawberry Milk Cocktail",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Banana Milk Chocolate Cocktail",
+            "price": "5,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Berry Nuts Cocktail",
+            "price": "7,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Avocado Nuts Cocktail",
+            "price": "7,000 IQD",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "shisha",
+        "title": "Shisha",
+        "icon": "🍃",
+        "items": [
+          {
+            "name": "English",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Double Apple",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Grape",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Grape Mint",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Lemon Mint",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Citrus",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Gum Mint",
+            "price": "10,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Special",
+            "price": "10,000 IQD",
+            "img": "img/اراكيل/1.jpeg"
+          }
+        ]
+      }
+    ]
+  }
+}
