@@ -13,7 +13,7 @@
             box-sizing: border-box;
             -webkit-tap-highlight-color: transparent
         }
-
+        
         :root {
             --primary: #7d6a4a;
             --primary-light: #a08d6d;
@@ -36,6 +36,7 @@
             position: relative;
         }
 
+        /* تحسين الخلفية مع اللون الجديد */
         body::before {
             content: '';
             position: fixed;
@@ -48,6 +49,7 @@
             will-change: opacity;
         }
 
+        /* جزيئات ذهبية محدثة */
         body::after {
             content: '';
             position: fixed;
@@ -61,139 +63,7 @@
             opacity: 0.7;
         }
 
-        /* ============================================================
-           طبقة الديكور الرمضاني
-           ============================================================ */
-        .ramadan-layer {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            z-index: 50;
-            overflow: hidden;
-        }
-
-        .lanterns-row {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            padding: 0 10px;
-        }
-
-        .lanterns-row::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg,
-                transparent 0%,
-                rgba(125,106,74,.3) 10%,
-                rgba(196,180,152,.6) 30%,
-                rgba(125,106,74,.5) 50%,
-                rgba(160,141,109,.5) 70%,
-                rgba(196,180,152,.6) 90%,
-                transparent 100%);
-        }
-
-        .r-lantern {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            animation: lanternSwing var(--swing-dur) ease-in-out infinite var(--swing-delay);
-            transform-origin: top center;
-        }
-
-        @keyframes lanternSwing {
-            0%, 100% { transform: rotate(calc(var(--tilt) * -1)); }
-            50%       { transform: rotate(var(--tilt)); }
-        }
-
-        .r-lantern::before {
-            content: '';
-            display: block;
-            width: 1.5px;
-            height: var(--string-h);
-            background: linear-gradient(180deg, rgba(196,180,152,.8), rgba(196,180,152,.1));
-        }
-
-        .lantern-body {
-            width: var(--w);
-            height: var(--h);
-            animation: lanternGlow var(--swing-dur) ease-in-out infinite var(--swing-delay);
-        }
-
-        .lantern-body svg { width: 100%; height: 100%; }
-
-        @keyframes lanternGlow {
-            0%, 100% { filter: drop-shadow(0 0 5px var(--glow)) drop-shadow(0 0 12px var(--glow2)); }
-            50%       { filter: drop-shadow(0 0 10px var(--glow)) drop-shadow(0 0 24px var(--glow2)); }
-        }
-
-        .r-crescent {
-            position: absolute;
-            top: 128px;
-            left: 14px;
-            font-size: 36px;
-            color: rgba(255, 220, 80, 0.5);
-            text-shadow: 0 0 18px rgba(255,200,50,.4), 0 0 36px rgba(255,200,50,.15);
-            animation: crescentFloat 7s ease-in-out infinite;
-        }
-
-        html[dir="ltr"] .r-crescent { left: auto; right: 14px; }
-
-        @keyframes crescentFloat {
-            0%, 100% { transform: translateY(0) rotate(-8deg); opacity: 0.5; }
-            50%       { transform: translateY(-7px) rotate(2deg); opacity: 0.75; }
-        }
-
-        .r-star {
-            position: absolute;
-            color: rgba(255, 220, 100, 0.6);
-            animation: starTwinkle var(--dur) ease-in-out infinite var(--delay);
-        }
-
-        @keyframes starTwinkle {
-            0%, 100% { opacity: 0.2; transform: scale(1) rotate(0deg); }
-            50%       { opacity: 0.5; transform: scale(1.3) rotate(20deg); }
-        }
-
-        .r-mini-crescent {
-            position: absolute;
-            color: rgba(255, 215, 70, var(--cop));
-            font-size: var(--csz);
-            text-shadow: 0 0 10px rgba(255,200,50,.5), 0 0 20px rgba(255,200,50,.2);
-            animation: crescentDrift var(--cdur) ease-in-out infinite var(--cdelay);
-        }
-
-        @keyframes crescentDrift {
-            0%, 100% { opacity: 0.2; transform: translateY(0px) rotate(var(--crot)); }
-            50%       { opacity: var(--cop); transform: translateY(-10px) rotate(calc(var(--crot) + 15deg)); }
-        }
-
-        /* بادج رمضان */
-        .ramadan-badge {
-            font-size: 0.7em;
-            color: rgba(255, 205, 70, 0.7);
-            letter-spacing: 2px;
-            margin-top: 4px;
-            display: block;
-            animation: badgePulse 3s ease-in-out infinite;
-        }
-
-        @keyframes badgePulse {
-            0%, 100% { opacity: 0.55; }
-            50%       { opacity: 0.9; }
-        }
-
-        /* ============================================================
-           التنسيق الأصلي
-           ============================================================ */
-
+        /* Header فاخر */
         .header {
             background: linear-gradient(
                 135deg, 
@@ -215,6 +85,7 @@
             gap: 25px;
         }
 
+        /* Logo فاخر */
         .logo-container {
             width: 95px;
             height: 95px;
@@ -275,6 +146,7 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* معلومات المطعم */
         .header-info {
             flex: 1;
             text-align: center;
@@ -397,7 +269,9 @@
             border-bottom: 1px solid rgba(196, 180, 152, .25);
         }
 
-        .lang-option:last-child { border-bottom: none; }
+        .lang-option:last-child {
+            border-bottom: none;
+        }
 
         .lang-option:hover {
             background: linear-gradient(135deg, rgba(125, 106, 74, .35), rgba(160, 141, 109, .25));
@@ -409,8 +283,13 @@
             background: linear-gradient(135deg, rgba(125, 106, 74, .45), rgba(160, 141, 109, .35));
         }
 
-        .lang-icon { font-size: 1.4em; min-width: 28px; text-align: center; }
+        .lang-icon {
+            font-size: 1.4em;
+            min-width: 28px;
+            text-align: center;
+        }
 
+        /* Menu Tabs محسّنة */
         .menu-tabs {
             display: flex;
             gap: 12px;
@@ -428,9 +307,19 @@
             box-shadow: 0 8px 32px rgba(0, 0, 0, .6);
         }
 
-        .menu-tabs::-webkit-scrollbar { height: 5px; }
-        .menu-tabs::-webkit-scrollbar-track { background: rgba(255,255,255,.05); border-radius: 10px; }
-        .menu-tabs::-webkit-scrollbar-thumb { background: linear-gradient(135deg, #7d6a4a, #c4b498); border-radius: 10px; }
+        .menu-tabs::-webkit-scrollbar {
+            height: 5px;
+        }
+
+        .menu-tabs::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .menu-tabs::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #7d6a4a, #c4b498);
+            border-radius: 10px;
+        }
 
         .tab-btn {
             flex-shrink: 0;
@@ -444,7 +333,7 @@
             cursor: pointer;
             transition: all .25s ease;
             white-space: nowrap;
-            box-shadow: 0 4px 12px rgba(0,0,0,.3);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
         }
 
         .tab-btn.active {
@@ -463,18 +352,28 @@
             transform: translateY(-1px);
         }
 
-        .menu-container { padding: 15px 18px 25px; position: relative; z-index: 1; }
+        .menu-container {
+            padding: 15px 18px 25px;
+            position: relative;
+            z-index: 1;
+        }
 
-        .tab-content { display: none; }
-        .tab-content.active { display: block; }
+        .tab-content {
+            display: none;
+        }
 
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Section محسّن */
         .section {
             background: linear-gradient(135deg, rgba(30, 35, 48, 0.85), rgba(125, 106, 74, .15));
             margin-bottom: 24px;
             border-radius: 24px;
             overflow: hidden;
             border: 1px solid rgba(196, 180, 152, .4);
-            box-shadow: 0 10px 40px rgba(0,0,0,.4);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, .4);
             transition: border-color .3s ease, box-shadow .3s ease;
         }
 
@@ -505,15 +404,30 @@
             display: flex;
             align-items: center;
             gap: 14px;
-            text-shadow: 0 2px 6px rgba(0,0,0,.4);
+            text-shadow: 0 2px 6px rgba(0, 0, 0, .4);
         }
 
-        .toggle-icon { transition: transform .25s ease; color: #e8dfc8; }
-        .section-title.active .toggle-icon { transform: rotate(180deg); }
+        .toggle-icon {
+            transition: transform .25s ease;
+            color: #e8dfc8;
+        }
 
-        .section-content { overflow: hidden; height: 0; transition: height .3s ease; }
-        .section-content.active { height: auto; }
+        .section-title.active .toggle-icon {
+            transform: rotate(180deg);
+        }
 
+        /* Section Content */
+        .section-content {
+            overflow: hidden;
+            height: 0;
+            transition: height .3s ease;
+        }
+
+        .section-content.active {
+            height: auto;
+        }
+
+        /* Menu Item محسّن */
         .menu-item {
             padding: 22px;
             border-bottom: 1px solid rgba(196, 180, 152, .18);
@@ -537,12 +451,18 @@
             box-shadow: 0 0 12px rgba(125, 106, 74, .65);
         }
 
-        .menu-item:hover::before { opacity: 1; }
+        .menu-item:hover::before {
+            opacity: 1;
+        }
+
         .menu-item:hover {
             background: linear-gradient(90deg, rgba(125, 106, 74, .15), rgba(160, 141, 109, .1));
             padding-right: 28px;
         }
-        .menu-item:last-child { border-bottom: none; }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
 
         .item-image-wrapper {
             flex-shrink: 0;
@@ -553,7 +473,7 @@
             background: linear-gradient(135deg, rgba(125, 106, 74, .28), rgba(160, 141, 109, .22));
             transition: all .25s ease;
             border: 2px solid rgba(196, 180, 152, .45);
-            box-shadow: 0 6px 20px rgba(0,0,0,.4);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
         }
 
         .menu-item:hover .item-image-wrapper {
@@ -562,9 +482,18 @@
             box-shadow: 0 8px 25px rgba(125, 106, 74, .55);
         }
 
-        .item-image { width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
-        .menu-item:hover .item-image { transform: scale(1.1); }
+        .item-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .25s ease;
+        }
 
+        .menu-item:hover .item-image {
+            transform: scale(1.1);
+        }
+
+        /* Placeholder للصور المفقودة */
         .item-placeholder {
             width: 100%;
             height: 100%;
@@ -572,7 +501,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, rgba(125,106,74,.15), rgba(160,141,109,.12), rgba(196,180,152,.18));
+            background: linear-gradient(
+                135deg,
+                rgba(125, 106, 74, 0.15),
+                rgba(160, 141, 109, 0.12),
+                rgba(196, 180, 152, 0.18)
+            );
             position: relative;
             overflow: hidden;
         }
@@ -581,26 +515,54 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at 30% 30%, rgba(125,106,74,.3) 0%, transparent 50%), radial-gradient(circle at 70% 70%, rgba(196,180,152,.25) 0%, transparent 50%);
+            background: 
+                radial-gradient(circle at 30% 30%, rgba(125, 106, 74, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, rgba(196, 180, 152, 0.25) 0%, transparent 50%);
             animation: placeholderPulse 3s ease-in-out infinite;
         }
 
-        @keyframes placeholderPulse { 0%,100%{opacity:.6} 50%{opacity:1} }
+        @keyframes placeholderPulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
 
         .placeholder-icon {
             font-size: 2.5em;
             margin-bottom: 6px;
             position: relative;
             z-index: 1;
-            filter: drop-shadow(0 2px 8px rgba(125,106,74,.4));
+            filter: drop-shadow(0 2px 8px rgba(125, 106, 74, 0.4));
             animation: placeholderFloat 2.5s ease-in-out infinite;
         }
 
-        @keyframes placeholderFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+        @keyframes placeholderFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
 
-        .placeholder-text { font-size:.75em; font-weight:600; color:#a08d6d; letter-spacing:1px; position:relative; z-index:1; }
+        .placeholder-text {
+            font-size: 0.75em;
+            font-weight: 600;
+            color: #a08d6d;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
 
-        .item-content { flex: 1; min-width: 0; }
+        .menu-item:hover .item-placeholder {
+            background: linear-gradient(
+                135deg,
+                rgba(125, 106, 74, 0.22),
+                rgba(160, 141, 109, 0.18),
+                rgba(196, 180, 152, 0.25)
+            );
+        }
+
+        .item-content {
+            flex: 1;
+            min-width: 0;
+        }
 
         .item-header {
             display: flex;
@@ -610,7 +572,13 @@
             gap: 12px;
         }
 
-        .item-name { font-size:1.2em; font-weight:700; line-height:1.5; color:#fff; text-shadow:0 2px 6px rgba(0,0,0,.3); }
+        .item-name {
+            font-size: 1.2em;
+            font-weight: 700;
+            line-height: 1.5;
+            color: #fff;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+        }
 
         .item-price {
             font-family: 'Playfair Display', serif;
@@ -621,16 +589,22 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             white-space: nowrap;
-            filter: drop-shadow(0 2px 6px rgba(125,106,74,.5));
+            filter: drop-shadow(0 2px 6px rgba(125, 106, 74, .5));
         }
 
-        .item-description { font-size:.95em; color:#c4b498; line-height:1.7; text-shadow:0 1px 3px rgba(0,0,0,.3); }
+        .item-description {
+            font-size: .95em;
+            color: #c4b498;
+            line-height: 1.7;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        }
 
+        /* Modal محسّن */
         .modal {
             display: none;
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,.96);
+            background: rgba(0, 0, 0, .96);
             z-index: 1000;
             opacity: 0;
             transition: opacity .3s;
@@ -639,11 +613,21 @@
             -webkit-backdrop-filter: blur(10px);
         }
 
-        @keyframes modalFadeIn { to { opacity: 1; } }
-        @keyframes modalFadeOut { to { opacity: 0; } }
+        @keyframes modalFadeIn {
+            to { opacity: 1; }
+        }
 
-        .modal.active { display: flex; }
-        .modal.closing { animation: modalFadeOut 0.3s ease forwards; }
+        @keyframes modalFadeOut {
+            to { opacity: 0; }
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal.closing {
+            animation: modalFadeOut 0.3s ease forwards;
+        }
 
         .modal-content {
             position: relative;
@@ -663,8 +647,8 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background: linear-gradient(135deg, rgba(125,106,74,.45), rgba(160,141,109,.35));
-            border: 2px solid rgba(196,180,152,.65);
+            background: linear-gradient(135deg, rgba(125, 106, 74, .45), rgba(160, 141, 109, .35));
+            border: 2px solid rgba(196, 180, 152, .65);
             color: #fff;
             font-size: 28px;
             cursor: pointer;
@@ -673,14 +657,14 @@
             justify-content: center;
             transition: all .3s ease;
             z-index: 1002;
-            box-shadow: 0 6px 20px rgba(0,0,0,.6);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, .6);
         }
 
         .modal-close:hover {
-            background: linear-gradient(135deg, rgba(239,68,68,.9), rgba(220,38,38,.8));
+            background: linear-gradient(135deg, rgba(239, 68, 68, .9), rgba(220, 38, 38, .8));
             transform: rotate(90deg) scale(1.1);
-            border-color: rgba(239,68,68,1);
-            box-shadow: 0 8px 25px rgba(239,68,68,.5);
+            border-color: rgba(239, 68, 68, 1);
+            box-shadow: 0 8px 25px rgba(239, 68, 68, .5);
         }
 
         .modal-image-container {
@@ -695,122 +679,246 @@
             margin-bottom: 25px;
         }
 
+        /* Modal Placeholder */
         .modal-placeholder {
-            width: 100%; height: 100%;
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
-            background: linear-gradient(135deg, rgba(125,106,74,.2), rgba(160,141,109,.15), rgba(196,180,152,.22));
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(
+                135deg,
+                rgba(125, 106, 74, 0.2),
+                rgba(160, 141, 109, 0.15),
+                rgba(196, 180, 152, 0.22)
+            );
             border-radius: 20px;
-            border: 3px solid rgba(196,180,152,.45);
-            position: relative; overflow: hidden;
-            box-shadow: 0 25px 70px rgba(0,0,0,.6);
+            border: 3px solid rgba(196, 180, 152, .45);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, .6);
         }
 
         .modal-placeholder::before {
             content: '';
-            position: absolute; inset: 0;
-            background: radial-gradient(circle at 30% 30%, rgba(125,106,74,.35) 0%, transparent 60%), radial-gradient(circle at 70% 70%, rgba(196,180,152,.3) 0%, transparent 60%);
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 30% 30%, rgba(125, 106, 74, 0.35) 0%, transparent 60%),
+                radial-gradient(circle at 70% 70%, rgba(196, 180, 152, 0.3) 0%, transparent 60%);
             animation: modalPlaceholderPulse 4s ease-in-out infinite;
         }
 
-        @keyframes modalPlaceholderPulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+        @keyframes modalPlaceholderPulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
 
         .modal-placeholder-icon {
-            font-size: 6em; margin-bottom: 20px;
-            position: relative; z-index: 1;
-            filter: drop-shadow(0 4px 12px rgba(125,106,74,.5));
+            font-size: 6em;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 4px 12px rgba(125, 106, 74, 0.5));
             animation: modalPlaceholderFloat 3s ease-in-out infinite;
         }
 
-        @keyframes modalPlaceholderFloat { 0%,100%{transform:translateY(0) scale(1)} 50%{transform:translateY(-10px) scale(1.05)} }
-
-        .modal-image {
-            max-width: 100%; max-height: 100%;
-            object-fit: contain; border-radius: 20px;
-            box-shadow: 0 25px 70px rgba(0,0,0,.6);
-            cursor: grab; user-select: none;
-            transition: transform 0.2s ease-out;
-            border: 3px solid rgba(196,180,152,.55);
+        @keyframes modalPlaceholderFloat {
+            0%, 100% { transform: translateY(0px) scale(1); }
+            50% { transform: translateY(-10px) scale(1.05); }
         }
 
-        .modal-image:active { cursor: grabbing; }
+        .modal-placeholder-text {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #c4b498;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        .modal-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 20px;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, .6);
+            cursor: grab;
+            user-select: none;
+            transition: transform 0.2s ease-out;
+            border: 3px solid rgba(196, 180, 152, .55);
+        }
+
+        .modal-image:active {
+            cursor: grabbing;
+        }
 
         .modal-info {
-            background: linear-gradient(135deg, rgba(30,35,48,.95), rgba(125,106,74,.18));
+            background: linear-gradient(135deg, rgba(30, 35, 48, 0.95), rgba(125, 106, 74, .18));
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border: 2px solid rgba(196,180,152,.55);
+            border: 2px solid rgba(196, 180, 152, .55);
             border-radius: 20px;
             padding: 28px;
             max-width: 650px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 12px 40px rgba(0,0,0,.6);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, .6);
         }
 
         .modal-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.8em; font-weight: 800;
+            font-size: 1.8em;
+            font-weight: 800;
             margin-bottom: 14px;
             background: linear-gradient(135deg, #7d6a4a, #a08d6d, #c4b498, #e8dfc8, #fff);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-            filter: drop-shadow(0 2px 8px rgba(125,106,74,.6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 2px 8px rgba(125, 106, 74, .6));
         }
 
-        .modal-description { color:#c4b498; margin-bottom:18px; line-height:1.8; font-size:1.05em; text-shadow:0 1px 3px rgba(0,0,0,.3); }
+        .modal-description {
+            color: #c4b498;
+            margin-bottom: 18px;
+            line-height: 1.8;
+            font-size: 1.05em;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        }
 
         .modal-price {
             font-family: 'Playfair Display', serif;
-            font-size: 2em; font-weight: 900;
+            font-size: 2em;
+            font-weight: 900;
             background: linear-gradient(135deg, #7d6a4a, #a08d6d, #c4b498, #e8dfc8, #fff);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-            filter: drop-shadow(0 2px 8px rgba(125,106,74,.6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 2px 8px rgba(125, 106, 74, .6));
         }
 
+        /* Footer */
         .footer {
-            text-align: center; padding: 35px 25px;
-            color: #c4b498; font-size:.95em;
-            background: linear-gradient(135deg, rgba(30,35,48,.85), rgba(125,106,74,.15));
-            margin-top: 25px; border-radius: 24px;
-            border: 1px solid rgba(196,180,152,.4);
-            box-shadow: 0 8px 32px rgba(0,0,0,.4);
+            text-align: center;
+            padding: 35px 25px;
+            color: #c4b498;
+            font-size: .95em;
+            background: linear-gradient(135deg, rgba(30, 35, 48, 0.85), rgba(125, 106, 74, .15));
+            margin-top: 25px;
+            border-radius: 24px;
+            border: 1px solid rgba(196, 180, 152, .4);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, .4);
         }
 
-        .footer p { margin: 10px 0; line-height: 1.8; text-shadow: 0 1px 3px rgba(0,0,0,.3); }
+        .footer p {
+            margin: 10px 0;
+            line-height: 1.8;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+        }
 
-        html[dir="ltr"] .language-menu { left: auto; right: 18px; }
-        html[dir="ltr"] .language-dropdown { left: auto; right: 0; }
-        html[dir="ltr"] .menu-item::before { right: auto; left: 0; }
-        html[dir="ltr"] .menu-item:hover { padding-right: 22px; padding-left: 28px; }
+        /* RTL/LTR Support */
+        html[dir="ltr"] .language-menu {
+            left: auto;
+            right: 18px;
+        }
 
+        html[dir="ltr"] .language-dropdown {
+            left: auto;
+            right: 0;
+        }
+
+        html[dir="ltr"] .menu-item::before {
+            right: auto;
+            left: 0;
+        }
+
+        html[dir="ltr"] .menu-item:hover {
+            padding-right: 22px;
+            padding-left: 28px;
+        }
+
+        /* Responsive */
         @media (max-width:480px) {
-            .header { padding: 16px 18px; }
-            .logo-container { width: 75px; height: 75px; }
-            .header-info { margin-left: 75px; }
-            html[dir="ltr"] .header-info { margin-left: 0; margin-right: 75px; }
-            .restaurant-name { font-size: clamp(1.3em, 4.2vw, 1.6em); letter-spacing: 3px; }
-            .subtitle { font-size: 0.72em; letter-spacing: 2px; }
-            .section-title { padding: 18px 20px; }
-            .menu-item { padding: 20px; }
-            .item-image-wrapper { width: 75px; height: 75px; }
-            .modal-image-container { height: 55vh; }
-            .tab-btn { padding: 11px 20px; font-size: 0.95em; }
-            .burger-icon { width: 42px; height: 42px; }
-            .burger-icon img { width: 20px; height: 20px; }
-            .language-menu { top: 14px; left: 14px; }
-            html[dir="ltr"] .language-menu { right: 14px; }
-            .menu-tabs { top: 107px; }
-            .r-crescent { font-size: 26px; top: 107px; }
+            .header {
+                padding: 16px 18px;
+            }
+
+            .logo-container {
+                width: 75px;
+                height: 75px;
+            }
+
+            .header-info {
+                margin-left: 75px;
+            }
+            
+            html[dir="ltr"] .header-info {
+                margin-left: 0;
+                margin-right: 75px;
+            }
+
+            .restaurant-name {
+                font-size: clamp(1.3em, 4.2vw, 1.6em);
+                letter-spacing: 3px;
+            }
+
+            .subtitle {
+                font-size: 0.72em;
+                letter-spacing: 2px;
+            }
+
+            .section-title {
+                padding: 18px 20px;
+            }
+
+            .menu-item {
+                padding: 20px;
+            }
+
+            .item-image-wrapper {
+                width: 75px;
+                height: 75px;
+            }
+
+            .modal-image-container {
+                height: 55vh;
+            }
+
+            .tab-btn {
+                padding: 11px 20px;
+                font-size: 0.95em;
+            }
+
+            .burger-icon {
+                width: 42px;
+                height: 42px;
+            }
+
+            .burger-icon img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .language-menu {
+                top: 14px;
+                left: 14px;
+            }
+
+            html[dir="ltr"] .language-menu {
+                right: 14px;
+            }
+
+            .menu-tabs {
+                top: 107px;
+            }
         }
     </style>
 </head>
 
 <body>
-
-    <div class="ramadan-layer" id="ramadanLayer">
-        <div class="lanterns-row" id="lanternsRow"></div>
-        <div class="r-crescent">☽</div>
-    </div>
-
     <div class="header" id="mainHeader">
         <div class="language-menu" id="languageMenu">
             <div class="burger-icon" id="burgerIcon">
@@ -837,7 +945,6 @@
         <div class="header-info">
             <h1 class="restaurant-name">BURJ AL-FURAT</h1>
             <p class="subtitle" data-tr="subtitle">تجربة طعام فاخرة</p>
-            <span class="ramadan-badge">☽ رمضان مبارك ☾</span>
         </div>
     </div>
 
@@ -847,7 +954,9 @@
         <button class="tab-btn" data-tab="shisha">🍃 الأراكيل</button>
     </div>
 
-    <div class="menu-container" id="menuContainer"></div>
+    <div class="menu-container" id="menuContainer">
+        <!-- محتوى المنيو سيتم إضافته عبر JavaScript -->
+    </div>
 
     <div class="footer">
         <p data-tr="footer1">جميع أطباقنا تُحضّر طازجة عند الطلب</p>
@@ -870,273 +979,358 @@
     </div>
 
     <script>
-    /* ============================================================
-       بناء عناصر رمضان — نفس منيو مارينا بس بألوان برج الفرات
-       ============================================================ */
-    (function() {
-        const layer = document.getElementById('ramadanLayer');
-        const row   = document.getElementById('lanternsRow');
+        let menuData = null;
 
-        function makeLanternSVG(bodyColor, glowColor, accentColor) {
-            return `<svg viewBox="0 0 36 68" xmlns="http://www.w3.org/2000/svg" style="overflow:visible">
-              <defs>
-                <radialGradient id="rg_${bodyColor.replace('#','')}" cx="40%" cy="30%">
-                  <stop offset="0%" stop-color="${accentColor}" stop-opacity="0.9"/>
-                  <stop offset="100%" stop-color="${bodyColor}" stop-opacity="0.8"/>
-                </radialGradient>
-              </defs>
-              <rect x="15" y="0" width="6" height="5" rx="2.5" fill="${bodyColor}" opacity="0.9"/>
-              <path d="M10,5 Q18,1 26,5 L28,12 L8,12 Z" fill="url(#rg_${bodyColor.replace('#','')})" opacity="0.9"/>
-              <path d="M8,12 Q4,28 6,48 Q10,58 18,60 Q26,58 30,48 Q32,28 28,12 Z" fill="url(#rg_${bodyColor.replace('#','')})" opacity="0.88"/>
-              <path d="M13,18 Q11,32 13,46 Q15,54 18,55 Q21,54 23,46 Q25,32 23,18 Z" fill="${glowColor}" opacity="0.35"/>
-              <line x1="9"  y1="22" x2="27" y2="22" stroke="${accentColor}" stroke-width="0.7" opacity="0.4"/>
-              <line x1="8"  y1="32" x2="28" y2="32" stroke="${accentColor}" stroke-width="0.7" opacity="0.4"/>
-              <line x1="8"  y1="42" x2="28" y2="42" stroke="${accentColor}" stroke-width="0.7" opacity="0.4"/>
-              <path d="M11,58 Q18,65 25,58 L23,62 Q18,67 13,62 Z" fill="${bodyColor}" opacity="0.7"/>
-            </svg>`;
-        }
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                menuData = data;
+                init();
+            })
+            .catch(error => {
+                console.error('Error loading menu data:', error);
+                alert('خطأ في تحميل بيانات المنيو');
+            });
 
-        // ألوان الفوانيس من بالت برج الفرات (ذهبي + عنبري)
-        const configs = [
-            { body:'#7d6a4a', glow:'#e8dfc8', accent:'#c4b498', sw:'4.2s', sd:'0s',    sh:'30px', w:'30px', h:'56px', tilt:'5deg' },
-            { body:'#c4b498', glow:'#fff8e8', accent:'#e8dfc8', sw:'5s',   sd:'-1s',   sh:'20px', w:'26px', h:'48px', tilt:'7deg' },
-            { body:'#a08d6d', glow:'#f5ead5', accent:'#c4b498', sw:'3.6s', sd:'-2s',   sh:'36px', w:'32px', h:'60px', tilt:'6deg' },
-            { body:'#7d6a4a', glow:'#e8dfc8', accent:'#c4b498', sw:'4.8s', sd:'-0.5s', sh:'22px', w:'24px', h:'44px', tilt:'4deg' },
-            { body:'#5c4f35', glow:'#c4b498', accent:'#a08d6d', sw:'5.5s', sd:'-3s',   sh:'28px', w:'28px', h:'52px', tilt:'8deg' },
-            { body:'#c4b498', glow:'#fff8e8', accent:'#e8dfc8', sw:'4s',   sd:'-1.5s', sh:'16px', w:'26px', h:'48px', tilt:'5deg' },
-            { body:'#a08d6d', glow:'#f5ead5', accent:'#c4b498', sw:'3.8s', sd:'-2.5s', sh:'32px', w:'30px', h:'56px', tilt:'6deg' },
-        ];
+        let L = 'ar', s = 1, tx = 0, ty = 0, drag = false, sx, sy, td = 0, currentTab = 'food';
+        let lastTap = 0;
+        let modalScrollPosition = 0;
+        
+        const e = e => document.getElementById(e), 
+              mc = e('menuContainer'), 
+              mo = e('imageModal'), 
+              mi = e('modalImage'), 
+              mt = e('modalTitle'), 
+              md = e('modalDescription'), 
+              mp = e('modalPrice'),
+              mtabs = e('menuTabs'),
+              languageMenu = e('languageMenu'),
+              burgerIcon = e('burgerIcon');
 
-        configs.forEach(cfg => {
-            const wrap = document.createElement('div');
-            wrap.className = 'r-lantern';
-            wrap.style.cssText = `--swing-dur:${cfg.sw};--swing-delay:${cfg.sd};--string-h:${cfg.sh};--w:${cfg.w};--h:${cfg.h};--glow:${cfg.body};--glow2:${cfg.glow};--tilt:${cfg.tilt};`;
-            const body = document.createElement('div');
-            body.className = 'lantern-body';
-            body.innerHTML = makeLanternSVG(cfg.body, cfg.glow, cfg.accent);
-            wrap.appendChild(body);
-            row.appendChild(wrap);
+        burgerIcon.addEventListener('click', (e) => {
+            e.stopPropagation();
+            languageMenu.classList.toggle('open');
         });
 
-        // النجوم
-        const starChars = ['★','✦','✧','✩','⭐'];
-        for (let i = 0; i < 14; i++) {
-            const star = document.createElement('div');
-            star.className = 'r-star';
-            const sz = (5 + Math.random() * 8) + 'px';
-            star.style.cssText = `top:${Math.random()*93}%;left:${Math.random()*100}%;font-size:${sz};--dur:${2+Math.random()*4}s;--delay:${-Math.random()*5}s;`;
-            star.textContent = starChars[Math.floor(Math.random() * starChars.length)];
-            layer.appendChild(star);
-        }
-
-        // الهلالات
-        for (let i = 0; i < 8; i++) {
-            const cr = document.createElement('div');
-            cr.className = 'r-mini-crescent';
-            const sz = (26 + Math.random() * 22) + 'px';
-            const op = (0.35 + Math.random() * 0.2).toFixed(2);
-            cr.style.cssText = `top:${5+Math.random()*88}%;left:${Math.random()*96}%;--csz:${sz};--cop:${op};--cdur:${4+Math.random()*6}s;--cdelay:${-Math.random()*7}s;--crot:${-20+Math.random()*40}deg;`;
-            cr.textContent = '☽';
-            layer.appendChild(cr);
-        }
-    })();
-
-    /* ============================================================
-       كود المنيو الأصلي
-       ============================================================ */
-    let menuData = null;
-
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => { menuData = data; init(); })
-        .catch(error => { console.error('Error loading menu data:', error); alert('خطأ في تحميل بيانات المنيو'); });
-
-    let L = 'ar', s = 1, tx = 0, ty = 0, drag = false, sx, sy, td = 0, currentTab = 'food';
-    let lastTap = 0, modalScrollPosition = 0;
-
-    const e = e => document.getElementById(e),
-          mc = e('menuContainer'), mo = e('imageModal'), mi = e('modalImage'),
-          mt = e('modalTitle'), md = e('modalDescription'), mp = e('modalPrice'),
-          mtabs = e('menuTabs'), languageMenu = e('languageMenu'), burgerIcon = e('burgerIcon');
-
-    burgerIcon.addEventListener('click', (e) => { e.stopPropagation(); languageMenu.classList.toggle('open'); });
-    document.addEventListener('click', (e) => { if (!languageMenu.contains(e.target)) languageMenu.classList.remove('open'); });
-
-    function init() {
-        if (menuData.logo && menuData.logo.url && menuData.logo.url.trim() !== '') {
-            const logoImage = document.querySelector('.logo-image');
-            logoImage.src = menuData.logo.url;
-            logoImage.alt = menuData.logo.alt;
-        }
-        document.querySelectorAll('.lang-option').forEach(option => {
-            option.addEventListener('click', () => {
-                L = option.dataset.lang;
-                document.querySelectorAll('.lang-option').forEach(x => x.classList.remove('active'));
-                option.classList.add('active');
-                document.documentElement.setAttribute('lang', L);
-                document.documentElement.setAttribute('dir', L === 'ar' ? 'rtl' : 'ltr');
+        document.addEventListener('click', (e) => {
+            if (!languageMenu.contains(e.target)) {
                 languageMenu.classList.remove('open');
-                renderTabs(); r(); u();
-            });
+            }
         });
-        renderTabs(); r();
-        window.addEventListener('popstate', handleBackButton);
-    }
 
-    function renderTabs() {
-        const tabs = menuData.tabs[L];
-        mtabs.innerHTML = tabs.map((tab, idx) =>
-            `<button class="tab-btn ${idx === 0 ? 'active' : ''}" data-tab="${tab.id}">${tab.name}</button>`
-        ).join('');
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentTab = btn.dataset.tab;
-                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-                const targetContent = document.querySelector(`[data-tab-content="${currentTab}"]`);
-                if (targetContent) targetContent.classList.add('active');
-            });
-        });
-    }
+        function init() {
+            if (menuData.logo && menuData.logo.url && menuData.logo.url.trim() !== '') {
+                const logoImage = document.querySelector('.logo-image');
+                logoImage.src = menuData.logo.url;
+                logoImage.alt = menuData.logo.alt;
+            }
 
-    function u() {
-        document.querySelectorAll('[data-tr]').forEach(e => {
-            e.textContent = menuData.translations[L][e.dataset.tr];
-        });
-    }
-
-    function r() {
-        const tabs = menuData.tabs[L];
-        const fragment = document.createDocumentFragment();
-        tabs.forEach((tab, tabIdx) => {
-            const tabDiv = document.createElement('div');
-            tabDiv.className = `tab-content ${tabIdx === 0 ? 'active' : ''}`;
-            tabDiv.setAttribute('data-tab-content', tab.id);
-            const sections = menuData.menu[L].filter(c => c.tab === tab.id);
-            sections.forEach((c, i) => {
-                const sectionDiv = document.createElement('div');
-                sectionDiv.className = 'section';
-                const titleDiv = document.createElement('div');
-                titleDiv.className = 'section-title';
-                titleDiv.innerHTML = `<div class="section-title-text"><span class="category-icon">${c.icon}</span>${c.title}</div><span class="toggle-icon">▼</span>`;
-                const contentDiv = document.createElement('div');
-                contentDiv.className = 'section-content';
-                c.items.forEach((x, j) => {
-                    const itemDiv = document.createElement('div');
-                    itemDiv.className = 'menu-item';
-                    const imageContent = x.img ?
-                        `<div class="item-image-wrapper"><img src="${x.img}" alt="${x.name}" class="item-image" loading="lazy" decoding="async"></div>` :
-                        `<div class="item-image-wrapper"><div class="item-placeholder"><div class="placeholder-icon">🍽️</div></div></div>`;
-                    itemDiv.innerHTML = `${imageContent}<div class="item-content"><div class="item-header"><div class="item-name">${x.name}</div><div class="item-price">${x.price}</div></div>${x.desc ? `<div class="item-description">${x.desc}</div>` : ''}</div>`;
-                    itemDiv.addEventListener('click', () => o(c.title, i, j, tab.id), { passive: true });
-                    contentDiv.appendChild(itemDiv);
+            document.querySelectorAll('.lang-option').forEach(option => {
+                option.addEventListener('click', () => {
+                    L = option.dataset.lang;
+                    document.querySelectorAll('.lang-option').forEach(x => x.classList.remove('active'));
+                    option.classList.add('active');
+                    document.documentElement.setAttribute('lang', L);
+                    document.documentElement.setAttribute('dir', L === 'ar' ? 'rtl' : 'ltr');
+                    languageMenu.classList.remove('open');
+                    renderTabs();
+                    r();
+                    u();
                 });
-                titleDiv.addEventListener('click', (event) => t(event, titleDiv, contentDiv), { passive: true });
-                sectionDiv.appendChild(titleDiv);
-                sectionDiv.appendChild(contentDiv);
-                tabDiv.appendChild(sectionDiv);
             });
-            fragment.appendChild(tabDiv);
-        });
-        mc.innerHTML = '';
-        mc.appendChild(fragment);
-    }
 
-    function t(event, titleElem, contentElem) {
-        event.stopPropagation();
-        const isActive = contentElem.classList.contains('active');
-        if (isActive) {
-            contentElem.style.height = '0px'; contentElem.classList.remove('active'); titleElem.classList.remove('active');
-        } else {
-            contentElem.style.height = contentElem.scrollHeight + 'px';
-            contentElem.classList.add('active'); titleElem.classList.add('active');
-            setTimeout(() => { if (contentElem.classList.contains('active')) contentElem.style.height = 'auto'; }, 300);
+            renderTabs();
+            r();
+            window.addEventListener('popstate', handleBackButton);
         }
-    }
 
-    function o(t, i, j, tabId) {
-        event.stopPropagation();
-        const items = menuData.menu[L].filter(c => c.tab === tabId);
-        const x = items[i].items[j];
-        modalScrollPosition = window.scrollY;
-        history.pushState({ modal: true }, '');
-        if (x.img) {
-            mi.onload = () => {
-                mo.classList.add('active');
+        function renderTabs() {
+            const tabs = menuData.tabs[L];
+            mtabs.innerHTML = tabs.map((tab, idx) => 
+                `<button class="tab-btn ${idx === 0 ? 'active' : ''}" data-tab="${tab.id}">${tab.name}</button>`
+            ).join('');
+
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentTab = btn.dataset.tab;
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    const targetContent = document.querySelector(`[data-tab-content="${currentTab}"]`);
+                    if (targetContent) {
+                        targetContent.classList.add('active');
+                    }
+                });
+            });
+        }
+
+        function u() { 
+            document.querySelectorAll('[data-tr]').forEach(e => { 
+                e.textContent = menuData.translations[L][e.dataset.tr] 
+            }) 
+        }
+
+        function r() {
+            const tabs = menuData.tabs[L];
+            const fragment = document.createDocumentFragment();
+            
+            tabs.forEach((tab, tabIdx) => {
+                const tabDiv = document.createElement('div');
+                tabDiv.className = `tab-content ${tabIdx === 0 ? 'active' : ''}`;
+                tabDiv.setAttribute('data-tab-content', tab.id);
+                
+                const sections = menuData.menu[L].filter(c => c.tab === tab.id);
+                
+                sections.forEach((c, i) => {
+                    const sectionDiv = document.createElement('div');
+                    sectionDiv.className = 'section';
+                    
+                    const titleDiv = document.createElement('div');
+                    titleDiv.className = 'section-title';
+                    titleDiv.innerHTML = `
+                        <div class="section-title-text">
+                            <span class="category-icon">${c.icon}</span>${c.title}
+                        </div>
+                        <span class="toggle-icon">▼</span>
+                    `;
+                    
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'section-content';
+                    
+                    c.items.forEach((x, j) => {
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = 'menu-item';
+                        
+                        // تحديد placeholder بناءً على وجود الصورة
+                        const imageContent = x.img ? 
+                            `<div class="item-image-wrapper">
+                                <img src="${x.img}" alt="${x.name}" class="item-image" loading="lazy" decoding="async">
+                            </div>` :
+                            `<div class="item-image-wrapper">
+                                <div class="item-placeholder">
+                                    <div class="placeholder-icon">🍽️</div>
+                                </div>
+                            </div>`;
+                        
+                        itemDiv.innerHTML = `
+                            ${imageContent}
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <div class="item-name">${x.name}</div>
+                                    <div class="item-price">${x.price}</div>
+                                </div>
+                                ${x.desc ? `<div class="item-description">${x.desc}</div>` : ''}
+                            </div>
+                        `;
+                        itemDiv.addEventListener('click', () => o(c.title, i, j, tab.id), { passive: true });
+                        contentDiv.appendChild(itemDiv);
+                    });
+                    
+                    titleDiv.addEventListener('click', (event) => t(event, titleDiv, contentDiv), { passive: true });
+                    sectionDiv.appendChild(titleDiv);
+                    sectionDiv.appendChild(contentDiv);
+                    tabDiv.appendChild(sectionDiv);
+                });
+                
+                fragment.appendChild(tabDiv);
+            });
+            
+            mc.innerHTML = '';
+            mc.appendChild(fragment);
+        }
+
+        function t(event, titleElem, contentElem) { 
+            event.stopPropagation();
+            
+            const isActive = contentElem.classList.contains('active');
+            
+            if (isActive) {
+                contentElem.style.height = '0px';
+                contentElem.classList.remove('active');
+                titleElem.classList.remove('active');
+            } else {
+                const height = contentElem.scrollHeight;
+                contentElem.style.height = height + 'px';
+                contentElem.classList.add('active'); 
+                titleElem.classList.add('active');
+                
+                setTimeout(() => {
+                    if (contentElem.classList.contains('active')) {
+                        contentElem.style.height = 'auto';
+                    }
+                }, 300);
+            }
+        }
+
+        function o(t, i, j, tabId) { 
+            event.stopPropagation();
+            const items = menuData.menu[L].filter(c => c.tab === tabId);
+            const x = items[i].items[j];
+            
+            modalScrollPosition = window.scrollY;
+            history.pushState({ modal: true }, '');
+            
+            // إذا في صورة، نعرضها
+            if (x.img) {
+                mi.onload = () => { 
+                    mo.classList.add('active'); 
+                    document.body.style.overflow = 'hidden';
+                    document.body.style.position = 'fixed';
+                    document.body.style.top = `-${modalScrollPosition}px`;
+                    document.body.style.width = '100%';
+                }; 
+                mi.src = x.img;
+                mi.style.display = 'block';
+                document.getElementById('imageContainer').querySelector('.modal-placeholder')?.remove();
+            } else {
+                // إذا ما في صورة، نعرض placeholder
+                mi.style.display = 'none';
+                const container = document.getElementById('imageContainer');
+                
+                // إزالة placeholder القديم إذا موجود
+                container.querySelector('.modal-placeholder')?.remove();
+                
+                // إنشاء placeholder جديد
+                const placeholder = document.createElement('div');
+                placeholder.className = 'modal-placeholder';
+                placeholder.innerHTML = `
+                    <div class="modal-placeholder-icon">🍽️</div> `;
+                container.appendChild(placeholder);
+                
+                mo.classList.add('active'); 
                 document.body.style.overflow = 'hidden';
                 document.body.style.position = 'fixed';
                 document.body.style.top = `-${modalScrollPosition}px`;
                 document.body.style.width = '100%';
-            };
-            mi.src = x.img;
-            mi.style.display = 'block';
-            document.getElementById('imageContainer').querySelector('.modal-placeholder')?.remove();
-        } else {
-            mi.style.display = 'none';
-            const container = document.getElementById('imageContainer');
-            container.querySelector('.modal-placeholder')?.remove();
-            const placeholder = document.createElement('div');
-            placeholder.className = 'modal-placeholder';
-            placeholder.innerHTML = `<div class="modal-placeholder-icon">🍽️</div>`;
-            container.appendChild(placeholder);
-            mo.classList.add('active');
-            document.body.style.overflow = 'hidden';
-            document.body.style.position = 'fixed';
-            document.body.style.top = `-${modalScrollPosition}px`;
-            document.body.style.width = '100%';
+            }
+            
+            mt.textContent = x.name; 
+            md.textContent = x.desc || ''; 
+            mp.textContent = x.price; 
+            
+            z();
         }
-        mt.textContent = x.name; md.textContent = x.desc || ''; mp.textContent = x.price;
-        z();
-    }
 
-    function c() {
-        mo.classList.add('closing');
-        setTimeout(() => {
-            mo.classList.remove('active', 'closing');
-            document.body.style.overflow = ''; document.body.style.position = '';
-            document.body.style.top = ''; document.body.style.width = '';
-            window.scrollTo(0, modalScrollPosition); z();
-        }, 300);
-    }
+        function c() { 
+            mo.classList.add('closing');
+            setTimeout(() => {
+                mo.classList.remove('active', 'closing'); 
+                document.body.style.overflow = '';
+                document.body.style.position = '';
+                document.body.style.top = '';
+                document.body.style.width = '';
+                window.scrollTo(0, modalScrollPosition);
+                z();
+            }, 300);
+        }
 
-    function handleBackButton(event) { if (mo.classList.contains('active')) { event.preventDefault(); c(); } }
-    function z() { s = 1; tx = ty = 0; v(); }
-    function v() { mi.style.transform = `translate(${tx}px,${ty}px) scale(${s})`; }
+        function handleBackButton(event) {
+            if (mo.classList.contains('active')) {
+                event.preventDefault();
+                c();
+            }
+        }
 
-    e('modalClose').addEventListener('click', (event) => { event.stopPropagation(); history.back(); });
+        function z() { 
+            s = 1; 
+            tx = ty = 0; 
+            v() 
+        }
 
-    mi.addEventListener('touchend', (e) => {
-        const currentTime = new Date().getTime();
-        const tapLength = currentTime - lastTap;
-        if (tapLength < 300 && tapLength > 0) { s = s === 1 ? 2.5 : 1; if (s === 1) { tx = ty = 0; } v(); }
-        lastTap = currentTime;
-    });
+        function v() { 
+            mi.style.transform = `translate(${tx}px,${ty}px) scale(${s})` 
+        }
 
-    mi.addEventListener('mousedown', e => { if (s <= 1) return; drag = true; sx = e.clientX - tx; sy = e.clientY - ty; mi.style.cursor = 'grabbing'; });
-    mi.addEventListener('touchstart', e => {
-        if (e.touches.length === 2) { e.preventDefault(); const t1 = e.touches[0], t2 = e.touches[1]; td = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY); }
-        else if (e.touches.length === 1 && s > 1) { drag = true; sx = e.touches[0].clientX - tx; sy = e.touches[0].clientY - ty; }
-    }, { passive: false });
+        e('modalClose').addEventListener('click', (event) => {
+            event.stopPropagation();
+            history.back();
+        });
 
-    document.addEventListener('mousemove', e => { if (!drag) return; e.preventDefault(); tx = e.clientX - sx; ty = e.clientY - sy; v(); });
-    document.addEventListener('touchmove', e => {
-        if (e.touches.length === 2) {
-            e.preventDefault();
-            const t1 = e.touches[0], t2 = e.touches[1], d = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
-            if (td > 0) { s = Math.max(.5, Math.min(3, s + (d - td) * .01)); v(); }
-            td = d;
-        } else if (drag && e.touches.length === 1) { e.preventDefault(); tx = e.touches[0].clientX - sx; ty = e.touches[0].clientY - sy; v(); }
-    }, { passive: false });
+        mi.addEventListener('touchend', (e) => {
+            const currentTime = new Date().getTime();
+            const tapLength = currentTime - lastTap;
+            
+            if (tapLength < 300 && tapLength > 0) {
+                if (s === 1) {
+                    s = 2.5;
+                } else {
+                    s = 1;
+                    tx = ty = 0;
+                }
+                v();
+            }
+            lastTap = currentTime;
+        });
 
-    document.addEventListener('mouseup', () => { drag = false; mi.style.cursor = 'grab'; });
-    document.addEventListener('touchend', () => { drag = false; td = 0; });
+        mi.addEventListener('mousedown', e => { 
+            if (s <= 1) return; 
+            drag = true; 
+            sx = e.clientX - tx; 
+            sy = e.clientY - ty; 
+            mi.style.cursor = 'grabbing' 
+        });
 
-    e('imageContainer').addEventListener('wheel', e => {
-        e.preventDefault(); const delta = e.deltaY > 0 ? -.1 : .1; s = Math.max(.5, Math.min(3, s + delta)); v();
-    }, { passive: false });
+        mi.addEventListener('touchstart', e => { 
+            if (e.touches.length === 2) { 
+                e.preventDefault(); 
+                const t1 = e.touches[0], t2 = e.touches[1]; 
+                td = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY) 
+            } else if (e.touches.length === 1 && s > 1) { 
+                drag = true; 
+                sx = e.touches[0].clientX - tx; 
+                sy = e.touches[0].clientY - ty 
+            } 
+        }, { passive: false });
 
-    document.addEventListener('keydown', e => { if (!mo.classList.contains('active')) return; if (e.key === 'Escape') history.back(); });
+        document.addEventListener('mousemove', e => { 
+            if (!drag) return; 
+            e.preventDefault(); 
+            tx = e.clientX - sx; 
+            ty = e.clientY - sy; 
+            v() 
+        });
+
+        document.addEventListener('touchmove', e => { 
+            if (e.touches.length === 2) { 
+                e.preventDefault(); 
+                const t1 = e.touches[0], t2 = e.touches[1], d = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY); 
+                if (td > 0) { 
+                    const delta = d - td; 
+                    s = Math.max(.5, Math.min(3, s + delta * .01)); 
+                    v() 
+                } 
+                td = d 
+            } else if (drag && e.touches.length === 1) { 
+                e.preventDefault(); 
+                tx = e.touches[0].clientX - sx; 
+                ty = e.touches[0].clientY - sy; 
+                v() 
+            } 
+        }, { passive: false });
+
+        document.addEventListener('mouseup', () => { 
+            drag = false; 
+            mi.style.cursor = 'grab' 
+        });
+
+        document.addEventListener('touchend', () => { 
+            drag = false; 
+            td = 0 
+        });
+
+        e('imageContainer').addEventListener('wheel', e => { 
+            e.preventDefault(); 
+            const delta = e.deltaY > 0 ? -.1 : .1; 
+            s = Math.max(.5, Math.min(3, s + delta)); 
+            v() 
+        }, { passive: false });
+
+        document.addEventListener('keydown', e => { 
+            if (!mo.classList.contains('active')) return; 
+            if (e.key === 'Escape') {
+                history.back();
+            }
+        });
     </script>
 </body>
 </html>
