@@ -51,6 +51,118 @@
     "ar": [
       {
         "tab": "food",
+        "title": "الفطور",
+        "icon": "🥘",
+        "items": [
+          {
+            "name": "شوربة عدس",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "حمص بالطحينة",
+            "price": "5,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "زيتون مشكل",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مربى نوعين",
+            "price": "2,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "زبدة",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لبنة",
+            "price": "1,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "اجبان مشكلة",
+            "price": "4,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "لحومات باردة",
+            "price": "5,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "خضارة",
+            "price": "1,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "كاهي",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "قيمر",
+            "price": "1,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "عسل",
+            "price": "1,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "جوز",
+            "price": "500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مشمش مجفف",
+            "price": "500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "فول مدمس",
+            "price": "3,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "فتة حمص",
+            "price": "4,000 د.ع",
+            "img": ""
+          },
+          {
+            "name": "عروق",
+            "price": "5,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "تشيلي فرايت",
+            "price": "5,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مخلمة",
+            "price": "5,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "اومليت",
+            "price": "3,500 د.ع",
+            "img": ""
+          },
+          {
+            "name": "مناقيش مشكلة",
+            "price": "4,500 د.ع",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "tab": "food",
         "title": "شوربات",
         "icon": "🍵",
         "items": [
@@ -967,118 +1079,6 @@
       },
       {
         "tab": "food",
-        "title": "الفطور",
-        "icon": "🥘",
-        "items": [
-          {
-            "name": "شوربة عدس",
-            "price": "3,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "حمص بالطحينة",
-            "price": "5,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "زيتون مشكل",
-            "price": "3,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "مربى نوعين",
-            "price": "2,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "زبدة",
-            "price": "1,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "لبنة",
-            "price": "1,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "اجبان مشكلة",
-            "price": "4,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "لحومات باردة",
-            "price": "5,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "خضارة",
-            "price": "1,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "كاهي",
-            "price": "1,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "قيمر",
-            "price": "1,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "عسل",
-            "price": "1,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "جوز",
-            "price": "500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "مشمش مجفف",
-            "price": "500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "فول مدمس",
-            "price": "3,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "فتة حمص",
-            "price": "4,000 د.ع",
-            "img": ""
-          },
-          {
-            "name": "عروق",
-            "price": "5,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "تشيلي فرايت",
-            "price": "5,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "مخلمة",
-            "price": "5,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "اومليت",
-            "price": "3,500 د.ع",
-            "img": ""
-          },
-          {
-            "name": "مناقيش مشكلة",
-            "price": "4,500 د.ع",
-            "img": ""
-          }
-        ]
-      },
-      {
-        "tab": "food",
         "title": "غربي",
         "icon": "🍝",
         "items": [
@@ -1141,6 +1141,118 @@
       }
     ],
     "en": [
+      {
+        "tab": "food",
+        "title": "Breakfast",
+        "icon": "🥘",
+        "items": [
+          {
+            "name": "Lentil Soup",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Hummus with Tahini",
+            "price": "5,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Olives",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Two Types of Jam",
+            "price": "2,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Butter",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Labneh",
+            "price": "1,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Cheeses",
+            "price": "4,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Cold Cuts",
+            "price": "5,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Vegetables",
+            "price": "1,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Kahi",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Geymar (Clotted Cream)",
+            "price": "1,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Honey",
+            "price": "1,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Walnuts",
+            "price": "500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Dried Apricots",
+            "price": "500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Ful Medames",
+            "price": "3,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Fatteh with Hummus",
+            "price": "4,000 IQD",
+            "img": ""
+          },
+          {
+            "name": "Aroug (Iraqi Meat Patties)",
+            "price": "5,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Chili Fries",
+            "price": "5,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Makhlama",
+            "price": "5,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Omelette",
+            "price": "3,500 IQD",
+            "img": ""
+          },
+          {
+            "name": "Mixed Manakeesh",
+            "price": "4,500 IQD",
+            "img": ""
+          }
+        ]
+      },
       {
         "tab": "food",
         "title": "Soups",
@@ -2055,118 +2167,6 @@
             "name": "Special",
             "price": "10,000 IQD",
             "img": "img/اراكيل/1.jpeg"
-          }
-        ]
-      },
-      {
-        "tab": "food",
-        "title": "Breakfast",
-        "icon": "🥘",
-        "items": [
-          {
-            "name": "Lentil Soup",
-            "price": "3,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Hummus with Tahini",
-            "price": "5,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Mixed Olives",
-            "price": "3,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Two Types of Jam",
-            "price": "2,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Butter",
-            "price": "1,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Labneh",
-            "price": "1,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Mixed Cheeses",
-            "price": "4,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Cold Cuts",
-            "price": "5,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Vegetables",
-            "price": "1,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Kahi",
-            "price": "1,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Geymar (Clotted Cream)",
-            "price": "1,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Honey",
-            "price": "1,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Walnuts",
-            "price": "500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Dried Apricots",
-            "price": "500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Ful Medames",
-            "price": "3,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Fatteh with Hummus",
-            "price": "4,000 IQD",
-            "img": ""
-          },
-          {
-            "name": "Aroug (Iraqi Meat Patties)",
-            "price": "5,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Chili Fries",
-            "price": "5,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Makhlama",
-            "price": "5,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Omelette",
-            "price": "3,500 IQD",
-            "img": ""
-          },
-          {
-            "name": "Mixed Manakeesh",
-            "price": "4,500 IQD",
-            "img": ""
           }
         ]
       },
