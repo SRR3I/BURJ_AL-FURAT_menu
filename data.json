@@ -50,13 +50,13 @@
   "menu": {
     "ar": [
       {
-        "tab": "food",
         "title": "الفطور",
+        "tab": "food",
         "icon": "🥘",
         "items": [
           {
             "name": "شوربة عدس",
-            "price": "3,000 د.ع",
+            "price": "4,000 د.ع",
             "img": ""
           },
           {
@@ -162,24 +162,23 @@
         ]
       },
       {
-        "tab": "food",
         "title": "شوربات",
+        "tab": "food",
         "icon": "🍵",
         "items": [
           {
             "name": "شوربة عدس",
-            "price": "3,000 د.ع",
+            "price": "4,000 د.ع",
             "img": ""
           },
           {
             "name": "شوربة فطر",
-            "price": "4,000 د.ع",
+            "price": "5,000 د.ع",
             "img": ""
           },
           {
             "name": "شوربة دجاج",
-            "desc": "",
-            "price": "4,000 د.ع",
+            "price": "5,500 د.ع",
             "img": ""
           },
           {
@@ -190,8 +189,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "سلطات",
+        "tab": "food",
         "icon": "🥗",
         "items": [
           {
@@ -242,8 +241,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "مقبلات باردة",
+        "tab": "food",
         "icon": "🥙",
         "items": [
           {
@@ -273,12 +272,12 @@
           },
           {
             "name": "ورق عنب",
-            "price": "4,500 د.ع",
+            "price": "6,000 د.ع",
             "img": ""
           },
           {
             "name": "متبل شمندر",
-            "price": "3,500 د.ع",
+            "price": "4,000 د.ع",
             "img": ""
           },
           {
@@ -309,8 +308,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "مقبلات ساخنة",
+        "tab": "food",
         "icon": "🍤",
         "items": [
           {
@@ -376,13 +375,13 @@
         ]
       },
       {
-        "tab": "food",
         "title": "منيو اطفال",
+        "tab": "food",
         "icon": "🍔",
         "items": [
           {
             "name": "كرسبي دجاج",
-            "price": "9,000 د.ع",
+            "price": "12,000 د.ع",
             "img": ""
           },
           {
@@ -413,8 +412,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "الأطباق الرئيسية",
+        "tab": "food",
         "icon": "🍖",
         "items": [
           {
@@ -439,17 +438,17 @@
           },
           {
             "name": "قوزي الشام",
-            "price": "15,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "كبة لبنية",
-            "price": "15,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "مقلوبة لحم",
-            "price": "20,000 د.ع",
+            "price": "25,000 د.ع",
             "img": ""
           },
           {
@@ -459,12 +458,12 @@
           },
           {
             "name": "قوزي لحم",
-            "price": "24,000 د.ع",
+            "price": "28,000 د.ع",
             "img": ""
           },
           {
             "name": "قوزي دجاج",
-            "price": "18,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
@@ -474,7 +473,7 @@
           },
           {
             "name": "فريكة دجاج",
-            "price": "18,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
@@ -484,24 +483,24 @@
           },
           {
             "name": "منسف اردني",
-            "price": "28,000 د.ع",
+            "price": "32,000 د.ع",
             "img": ""
           }
         ]
       },
       {
-        "tab": "food",
         "title": "مشاوي",
+        "tab": "food",
         "icon": "🔥",
         "items": [
           {
             "name": "طاوق مشوي",
-            "price": "16,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "كباب دجاج",
-            "price": "16,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
@@ -511,7 +510,7 @@
           },
           {
             "name": "مشاوي مشكل",
-            "price": "27,000 د.ع",
+            "price": "28,000 د.ع",
             "img": ""
           },
           {
@@ -521,7 +520,7 @@
           },
           {
             "name": "معلاك",
-            "price": "18,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
@@ -531,12 +530,12 @@
           },
           {
             "name": "مشكل دجاج",
-            "price": "16,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "عرايس لحم",
-            "price": "12,000 د.ع",
+            "price": "14,000 د.ع",
             "img": ""
           },
           {
@@ -546,13 +545,12 @@
           },
           {
             "name": "مسحب دجاج",
-            "desc": "",
-            "price": "12,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "كباب ازمرلي",
-            "price": "24,000 د.ع",
+            "price": "28,000 د.ع",
             "img": ""
           },
           {
@@ -568,18 +566,18 @@
         ]
       },
       {
-        "tab": "food",
         "title": "الفرن",
+        "tab": "food",
         "icon": "🍽️",
         "items": [
           {
             "name": "كباب بندورة",
-            "price": "16,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
             "name": "كباب طحينة",
-            "price": "16,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
@@ -619,7 +617,7 @@
           },
           {
             "name": "دجاج الاكينغ",
-            "price": "15,000 د.ع",
+            "price": "20,000 د.ع",
             "img": ""
           },
           {
@@ -645,8 +643,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "مشروبات",
+        "tab": "drinks",
         "icon": "🥤",
         "items": [
           {
@@ -676,14 +674,14 @@
           },
           {
             "name": "ريد بول",
-            "price": "2,500 د.ع",
+            "price": "3,000 د.ع",
             "img": ""
           }
         ]
       },
       {
-        "tab": "drinks",
         "title": "مشروبات ساخنة",
+        "tab": "drinks",
         "icon": "☕",
         "items": [
           {
@@ -774,8 +772,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "عصائر فريش",
+        "tab": "drinks",
         "icon": "🍊",
         "items": [
           {
@@ -816,8 +814,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "مشروبات باردة",
+        "tab": "drinks",
         "icon": "🧊",
         "items": [
           {
@@ -878,8 +876,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "ميلك شيك",
+        "tab": "drinks",
         "icon": "🥤",
         "items": [
           {
@@ -905,8 +903,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "موهيتو",
+        "tab": "drinks",
         "icon": "🍹",
         "items": [
           {
@@ -942,8 +940,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "سموذي",
+        "tab": "drinks",
         "icon": "🍓",
         "items": [
           {
@@ -984,8 +982,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "كوكتيل",
+        "tab": "drinks",
         "icon": "🥭",
         "items": [
           {
@@ -1031,55 +1029,55 @@
         ]
       },
       {
-        "tab": "shisha",
         "title": "أراكيل",
+        "tab": "shisha",
         "icon": "🍃",
         "items": [
           {
             "name": "إنجليزي",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "تفاحتين",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "عنب",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "عنب ونعناع",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "ليمون ونعناع",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "حمضيات",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "علك ونعناع",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           },
           {
             "name": "سبيشل",
-            "price": "10,000 د.ع",
+            "price": "12,000 د.ع",
             "img": "img/menu/اراكيل/1.jpeg"
           }
         ]
       },
       {
-        "tab": "food",
         "title": "غربي",
+        "tab": "food",
         "icon": "🍝",
         "items": [
           {
@@ -1089,7 +1087,7 @@
           },
           {
             "name": "ستيك دجاج",
-            "price": "14,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
@@ -1104,12 +1102,12 @@
           },
           {
             "name": "اسباكيتي بولينيز",
-            "price": "12,000 د.ع",
+            "price": "16,000 د.ع",
             "img": ""
           },
           {
             "name": "لازانيا",
-            "price": "15,000 د.ع",
+            "price": "16,000 د.ع",
             "img": ""
           },
           {
@@ -1119,17 +1117,17 @@
           },
           {
             "name": "اسكالوب دجاج",
-            "price": "16,000 د.ع",
+            "price": "18,000 د.ع",
             "img": ""
           },
           {
             "name": "كردون بلو دجاج",
-            "price": "16,000 د.ع",
+            "price": "22,000 د.ع",
             "img": ""
           },
           {
             "name": "فيلة سالمون مشوي",
-            "price": "24,000 د.ع",
+            "price": "26,000 د.ع",
             "img": ""
           },
           {
@@ -1142,13 +1140,13 @@
     ],
     "en": [
       {
-        "tab": "food",
         "title": "Breakfast",
+        "tab": "food",
         "icon": "🥘",
         "items": [
           {
             "name": "Lentil Soup",
-            "price": "3,000 IQD",
+            "price": "4,000 IQD",
             "img": ""
           },
           {
@@ -1254,24 +1252,23 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Soups",
+        "tab": "food",
         "icon": "🍵",
         "items": [
           {
             "name": "Lentil Soup",
-            "price": "3,000 IQD",
+            "price": "4,000 IQD",
             "img": ""
           },
           {
             "name": "Mushroom Soup",
-            "price": "4,000 IQD",
+            "price": "5,000 IQD",
             "img": ""
           },
           {
             "name": "Chicken Soup",
-            "desc": "",
-            "price": "4,000 IQD",
+            "price": "5,500 IQD",
             "img": ""
           },
           {
@@ -1282,8 +1279,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Salads",
+        "tab": "food",
         "icon": "🥗",
         "items": [
           {
@@ -1334,8 +1331,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Cold Appetizers",
+        "tab": "food",
         "icon": "🥙",
         "items": [
           {
@@ -1365,12 +1362,12 @@
           },
           {
             "name": "Grape Leaves",
-            "price": "4,500 IQD",
+            "price": "6,000 IQD",
             "img": ""
           },
           {
             "name": "Beetroot dip",
-            "price": "3,500 IQD",
+            "price": "4,000 IQD",
             "img": ""
           },
           {
@@ -1401,8 +1398,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Hot Appetizers",
+        "tab": "food",
         "icon": "🍤",
         "items": [
           {
@@ -1468,13 +1465,13 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Kids Menu",
+        "tab": "food",
         "icon": "🍔",
         "items": [
           {
             "name": "Crispy Chicken",
-            "price": "9,000 IQD",
+            "price": "12,000 IQD",
             "img": ""
           },
           {
@@ -1505,8 +1502,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Main Dishes",
+        "tab": "food",
         "icon": "🍖",
         "items": [
           {
@@ -1521,7 +1518,6 @@
           },
           {
             "name": "Chicken Kabsa",
-            "desc": "",
             "price": "18,000 IQD",
             "img": ""
           },
@@ -1532,17 +1528,17 @@
           },
           {
             "name": "Levantine Quzi",
-            "price": "15,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Kibbeh Labaniyeh",
-            "price": "15,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Meat Maqluba",
-            "price": "20,000 IQD",
+            "price": "25,000 IQD",
             "img": ""
           },
           {
@@ -1552,12 +1548,12 @@
           },
           {
             "name": "Meat Quzi",
-            "price": "24,000 IQD",
+            "price": "28,000 IQD",
             "img": ""
           },
           {
             "name": "Chicken Quzi",
-            "price": "18,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
@@ -1567,7 +1563,7 @@
           },
           {
             "name": "Chicken freekeh",
-            "price": "18,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
@@ -1577,24 +1573,24 @@
           },
           {
             "name": "Jordanian Mansaf",
-            "price": "28,000 IQD",
+            "price": "32,000 IQD",
             "img": ""
           }
         ]
       },
       {
-        "tab": "food",
         "title": "Grills",
+        "tab": "food",
         "icon": "🔥",
         "items": [
           {
             "name": "Grilled Tawouk",
-            "price": "16,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Chicken Kebab",
-            "price": "16,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
@@ -1604,7 +1600,7 @@
           },
           {
             "name": "Mixed Grill",
-            "price": "27,000 IQD",
+            "price": "28,000 IQD",
             "img": ""
           },
           {
@@ -1614,7 +1610,7 @@
           },
           {
             "name": "Ribs",
-            "price": "18,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
@@ -1624,12 +1620,12 @@
           },
           {
             "name": "Mixed Chicken Grill",
-            "price": "16,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Meat Arayes",
-            "price": "12,000 IQD",
+            "price": "14,000 IQD",
             "img": ""
           },
           {
@@ -1639,13 +1635,12 @@
           },
           {
             "name": "Chicken Mosahhab",
-            "desc": "",
-            "price": "12,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Izmirli Kebab",
-            "price": "24,000 IQD",
+            "price": "28,000 IQD",
             "img": ""
           },
           {
@@ -1661,18 +1656,18 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Oven",
+        "tab": "food",
         "icon": "🍽️",
         "items": [
           {
             "name": "Tomato kebab",
-            "price": "16,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
             "name": "Tahini kebab",
-            "price": "16,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
@@ -1712,7 +1707,7 @@
           },
           {
             "name": "Alaking chicken",
-            "price": "15,000 IQD",
+            "price": "20,000 IQD",
             "img": ""
           },
           {
@@ -1738,8 +1733,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Beverages",
+        "tab": "drinks",
         "icon": "🥤",
         "items": [
           {
@@ -1769,14 +1764,14 @@
           },
           {
             "name": "Red Bull",
-            "price": "2,500 IQD",
+            "price": "3,000 IQD",
             "img": ""
           }
         ]
       },
       {
-        "tab": "drinks",
         "title": "Hot Beverages",
+        "tab": "drinks",
         "icon": "☕",
         "items": [
           {
@@ -1867,8 +1862,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Fresh Juices",
+        "tab": "drinks",
         "icon": "🍊",
         "items": [
           {
@@ -1909,8 +1904,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Cold Beverages",
+        "tab": "drinks",
         "icon": "🧊",
         "items": [
           {
@@ -1971,8 +1966,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Milkshakes",
+        "tab": "drinks",
         "icon": "🥤",
         "items": [
           {
@@ -1998,8 +1993,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Mojito",
+        "tab": "drinks",
         "icon": "🍹",
         "items": [
           {
@@ -2035,8 +2030,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Smoothies",
+        "tab": "drinks",
         "icon": "🍓",
         "items": [
           {
@@ -2077,8 +2072,8 @@
         ]
       },
       {
-        "tab": "drinks",
         "title": "Cocktails",
+        "tab": "drinks",
         "icon": "🥭",
         "items": [
           {
@@ -2124,8 +2119,8 @@
         ]
       },
       {
-        "tab": "shisha",
         "title": "Shisha",
+        "tab": "shisha",
         "icon": "🍃",
         "items": [
           {
@@ -2171,8 +2166,8 @@
         ]
       },
       {
-        "tab": "food",
         "title": "Western Food",
+        "tab": "food",
         "icon": "🍝",
         "items": [
           {
@@ -2182,7 +2177,7 @@
           },
           {
             "name": "Chicken Steak",
-            "price": "14,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
@@ -2197,12 +2192,12 @@
           },
           {
             "name": "Spaghetti Bolognese",
-            "price": "12,000 IQD",
+            "price": "16,000 IQD",
             "img": ""
           },
           {
             "name": "Lasagna",
-            "price": "15,000 IQD",
+            "price": "16,000 IQD",
             "img": ""
           },
           {
@@ -2212,17 +2207,17 @@
           },
           {
             "name": "Chicken Escalope",
-            "price": "16,000 IQD",
+            "price": "18,000 IQD",
             "img": ""
           },
           {
             "name": "Chicken Cordon Bleu",
-            "price": "16,000 IQD",
+            "price": "22,000 IQD",
             "img": ""
           },
           {
             "name": "Grilled Salmon Fillet",
-            "price": "24,000 IQD",
+            "price": "26,000 IQD",
             "img": ""
           },
           {
